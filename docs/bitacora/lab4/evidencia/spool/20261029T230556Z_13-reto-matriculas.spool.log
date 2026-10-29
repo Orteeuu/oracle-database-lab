@@ -1,0 +1,12 @@
+SQL Format Cleared
+== Estadísticas del optimizador (DBMS_STATS de V002) ==
+
+TABLE_NAME         NUM_ROWS AVG_ROW_LEN     BLOCKS EMPTY_BLOCKS   PCT_FREE BFR_FORMULA BLOQUES_FORMULA
+---------------- ---------- ----------- ---------- ------------ ---------- ----------- ---------------
+ACA_ESTUDIANTES       20000          76        244            0         10          95             211
+ACA_MATRICULAS        60000          30        370            0         10         242             248
+== Segmento (incluye cabecera y bloques por encima de la HWM) ==
+
+SEGMENT_NAME                                                                                                                         BLOCKS    EXTENTS         MB
+-------------------------------------------------------------------------------------------------------------------------------- ---------- ---------- ----------
+ACA_MATRICULAS                                                                                                                          384         18          3
