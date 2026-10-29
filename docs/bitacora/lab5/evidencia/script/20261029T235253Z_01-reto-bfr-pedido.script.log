@@ -1,0 +1,14 @@
+== Filas por bloque REALES (agrupando por archivo y bloque del ROWID) ==
+
+BLOQUES_CON_FILAS     MINIMO	  MEDIA     MAXIMO
+----------------- ---------- ---------- ----------
+	     5220	   2	  191.6        200
+== Lo que dicen las estadísticas: NUM_ROWS / BLOCKS (bloques bajo la HWM, también los vacíos) ==
+
+  NUM_ROWS     BLOCKS FILAS_POR_BLOQUE_ESTADISTICA AVG_ROW_LEN	 PCT_FREE
+---------- ---------- ---------------------------- ----------- ----------
+   1000000	 5320			       188	    32	       10
+
+TABLESPACE_NAME 	       BIG BLOCK_SIZE
+------------------------------ --- ----------
+TBS_TIENDASUR		       YES	 8192
