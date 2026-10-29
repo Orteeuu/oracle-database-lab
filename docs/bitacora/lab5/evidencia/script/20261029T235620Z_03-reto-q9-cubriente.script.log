@@ -1,0 +1,9 @@
+== Q9 tal como está (IX_PED_FECHA + acceso a la tabla por ROWID) ==
+Q9 ??ltimos 20		       filas=	  20  lecturas l??gicas=      5  f??sicas=    0       .5 ms
+			       plan: COUNT STOPKEY > VIEW > TABLE ACCESS BY INDEX ROWID PEDIDO > INDEX FULL SCAN DESCENDING IX_PED_FECHA
+== Tamaños: un índice cubriente con TODAS las columnas sería casi una copia de la tabla ==
+
+SEGMENT_NAME	 SEGMENT_TYPE		    MB	   BLOCKS
+---------------- ------------------ ---------- ----------
+IX_PED_FECHA	 INDEX			    22	     2816
+PEDIDO		 TABLE			    42	     5376
