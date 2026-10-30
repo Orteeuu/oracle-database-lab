@@ -16,7 +16,7 @@ PROMPT 102 -> EGRESADO (confirmado) · 103 -> INACTIVO (sin confirmar) · y ahor
 ALTER SESSION SET CONTAINER = CDB$ROOT;
 SHUTDOWN ABORT
 SQL
-INICIO=$(date -u +%Y-%m-%dT%H:%M:%S)
+echo "Caída a las $(date -u +%Y-%m-%dT%H:%M:%SZ) (UTC)"
 echo "== 2. Arranque normal: la recuperación de instancia es automática =="
 printf "STARTUP\nEXIT\n" | sql
 bash scripts/ops/esperar-healthy.sh
