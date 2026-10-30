@@ -1,0 +1,11 @@
+== 0. Partimos de un checkpoint para que la comparación sea limpia ==
+
+MOMENTO 		     ESTIMATED_MTTR ACTUAL_REDO_BLKS TARGET_REDO_BLKS
+---------------------------- -------------- ---------------- ----------------
+antes del UPDATE			 41		 471	       663552
+== 1. UPDATE de 20 000 filas + COMMIT (sin checkpoint) ==
+
+MOMENTO 		     ESTIMATED_MTTR ACTUAL_REDO_BLKS TARGET_REDO_BLKS
+---------------------------- -------------- ---------------- ----------------
+despu??s del UPDATE			 41	       16716	       663552
+(actual_redo_blks = bloques de redo que habría que aplicar si la instancia cayera ahora; estimated_mttr en segundos)
