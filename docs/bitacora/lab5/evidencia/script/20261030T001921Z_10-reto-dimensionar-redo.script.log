@@ -1,0 +1,21 @@
+== Cambios de log por hora de hoy (v$log_history) ==
+
+HORA		 CAMBIOS
+------------- ----------
+2026-10-29 18	       1
+2026-10-29 23	       5
+2026-10-30 00	       5
+== Tamaño actual de cada grupo ==
+
+    GROUP#	   MB	 MEMBERS STATUS
+---------- ---------- ---------- ----------------
+	 1	  200	       2 ACTIVE
+	 2	  200	       2 CURRENT
+	 3	  200	       2 ACTIVE
+== Redo generado por hora (archivados): base para proponer el tamaño ==
+
+HORA	      ARCHIVADOS    MB_REDO MB_POR_GRUPO_PARA_4_CAMBIOS_HORA
+------------- ---------- ---------- --------------------------------
+2026-10-29 18	       1	199				  50
+2026-10-29 23	       5	941				 236
+2026-10-30 00	       5	744				 186

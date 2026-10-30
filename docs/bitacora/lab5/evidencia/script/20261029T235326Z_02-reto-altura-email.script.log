@@ -1,0 +1,21 @@
+== Diccionario: BLEVEL (altura - 1), hojas y claves distintas ==
+
+INDEX_NAME															     BLEVEL	ALTURA LEAF_BLOCKS
+-------------------------------------------------------------------------------------------------------------------------------- ---------- ---------- -----------
+DISTINCT_KEYS	NUM_ROWS
+------------- ----------
+IX_PED_CLIENTE																  2	     3	      2216
+       100816	 1000000
+
+UX_CLI_EMAIL																  2	     3	       501
+       100000	  100000
+
+== INDEX_STATS de UX_CLI_EMAIL: la medida que confirma (o no) el cálculo a mano ==
+
+NAME																     HEIGHT    LF_ROWS	  LF_BLKS
+-------------------------------------------------------------------------------------------------------------------------------- ---------- ---------- ----------
+ENTRADAS_POR_HOJA    BR_BLKS BYTES_POR_ENTRADA	 PCT_USED
+----------------- ---------- ----------------- ----------
+UX_CLI_EMAIL																  3	100000	      501
+	      200	   3		  35.9	       90
+
