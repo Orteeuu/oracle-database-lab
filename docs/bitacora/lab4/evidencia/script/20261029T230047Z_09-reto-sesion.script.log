@@ -1,0 +1,17 @@
+== Terminal 1 (segundo plano): consulta larga como SYSDBA en FREEPDB1 ==
+
+Session altered.
+
+== Terminal 2: C##OPS_RO localiza la sesión ==
+SQL Format Cleared
+== Sesiones de usuario ACTIVAS ordenadas por PGA (la primera es la que más consume) ==
+
+       SID    SERIAL# USERNAME     CONTENEDOR SPID     PGA_USADA_MB PGA_ASIGNADA_MB SEGUNDOS_ACTIVA SQL_TEXT                                                              
+---------- ---------- ------------ ---------- -------- ------------ --------------- --------------- ----------------------------------------------------------------------
+       181      17533 SYS          FREEPDB1   1527              3.3             3.7              19 SELECT COUNT(*) FROM admin_academia.aca_matriculas a, admin_academia.a
+
+  COUNT(*)
+----------
+ 179940000
+
+== consulta larga terminada ==

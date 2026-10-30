@@ -1,0 +1,47 @@
+== 1. Antes: sin destino OMF ==
+
+NAME		       EN_MEMORIA		EN_SPFILE
+---------------------- ------------------------ ------------------------
+db_create_file_dest    (vac??o) 		(no especificado)
+
+1 row selected.
+
+== 2. Cambio: SCOPE = BOTH (dinámico; efecto inmediato y persistente tras reiniciar) ==
+
+System altered.
+
+
+NAME		       EN_MEMORIA		EN_SPFILE
+---------------------- ------------------------ ------------------------
+db_create_file_dest    /opt/oracle/oradata	/opt/oracle/oradata
+
+1 row selected.
+
+== 3. Prueba: CREATE TABLESPACE sin cláusula DATAFILE en FREEPDB1 ==
+
+Session altered.
+
+
+PL/SQL procedure successfully completed.
+
+
+Tablespace created.
+
+
+TABLESPACE_NAME 	       FILE_NAME												    MB AUT
+------------------------------ ---------------------------------------------------------------------------------------------------- ---------- ---
+TBS_OMF_PRUEBA		       /opt/oracle/oradata/FREE/55E54F210F100828E0630B00580ADFD0/datafile/o1_mf_tbs_omf__og7mjcw4_.dbf		   100 YES
+
+1 row selected.
+
+== 4. Limpieza: con OMF, DROP TABLESPACE borra también el archivo ==
+
+Tablespace dropped.
+
+
+TBS_OMF_PRUEBA_RESTANTES
+------------------------
+		       0
+
+1 row selected.
+
