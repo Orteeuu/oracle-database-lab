@@ -16,3 +16,18 @@ No es SQL: comandos de shell de la Parte A del Lab 6 (git switch/pull, unzip y c
 - **Propósito (para qué lo necesitaba):** Preparar el entorno del Lab 6: copiar el kit, dejar las carpetas de evidencia, fijar mi código de alumno, hacer la copia en frío del punto de partida y abrir el Issue y la rama.
 - **Qué hace (con mis palabras; línea a línea si es SQL corto):** copié el kit del lab, puse mi código de alumno y hice un backup de la base por si la lío
 - **Evidencia de ejecución (archivo de docs/bitacora/lab6/evidencia con mi cabecera):** docs/bitacora/lab6/evidencia/script/20261119T122858Z_00-backup-lab6-inicio.script.log
+
+## Entrada 2
+- **Herramienta:** Claude (chat de claude.ai)
+- **Prompt (literal, copiado tal cual):**
+```text
+pero yo no quieor hacer ni escribir nada queiro me que me lo pongas tu porvafor
+```
+- **Código recibido (el fragmento, o la ruta del archivo donde está):**
+```text
+Texto de docs/bitacora/lab6-guardia.md (postmortems INC-601, INC-602 e INC-603) y de la respuesta 1 de docs/bitacora/lab6-respuestas.md, escritos por Claude a partir de mis logs.
+```
+- **Dónde lo usé (parte, script o pregunta):** Parte I (guardia nocturna) y pregunta de comprobación 1
+- **Propósito (para qué lo necesitaba):** Redactar los postmortems y la respuesta 1 a partir de la evidencia que generé.
+- **Qué hace (con mis palabras; línea a línea si es SQL corto):** Claude escribió los tres postmortems de la guardia y la respuesta 1, a partir de mis logs, y los revisé antes de entregarlos.
+- **Evidencia de ejecución (archivo de docs/bitacora/lab6/evidencia con mi cabecera):** docs/bitacora/lab6/evidencia/script/20261119T141851Z_08-diagnostico-inc1.script.log
