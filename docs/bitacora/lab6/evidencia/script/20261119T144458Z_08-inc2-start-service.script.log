@@ -1,0 +1,17 @@
+== EVIDENCIA alumno=E051 hora=2026-11-19T14:44:59Z origen=08-inc2-start-service
+== EVIDENCIA contenedor=fcb0efb17922 dbid=1509902213 arranque=2026-11-19T13:00:29 scn=8532450
+
+Session altered.
+
+BEGIN DBMS_SERVICE.START_SERVICE('academia_app'); END;
+
+*
+ERROR at line 1:
+ORA-44305: service academia_app is running
+ORA-06512: at "SYS.DBMS_SYS_ERROR", line 86
+ORA-06512: at "SYS.DBMS_SERVICE_ERR", line 27
+ORA-06512: at "SYS.DBMS_SERVICE", line 636
+ORA-06512: at line 1
+Help: https://docs.oracle.com/error-help/db/ora-44305/
+
+
